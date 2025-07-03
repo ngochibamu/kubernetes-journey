@@ -14,12 +14,14 @@ On the host (Mac), create or edit the file: `/Library/Preferences/VMware Fusion/
 
 Add follwoing lines:
 
-VERSION=1,0
-answer VNET_2_DHCP yes
-answer VNET_2_HOSTONLY_NETMASK 255.255.255.0
-answer VNET_2_HOSTONLY_SUBNET 172.16.100.0
-answer VNET_2_NAT yes
-answer VNET_2_VIRTUAL_ADAPTER yes
+```
+  VERSION=1,0
+  answer VNET_2_DHCP yes
+  answer VNET_2_HOSTONLY_NETMASK 255.255.255.0
+  answer VNET_2_HOSTONLY_SUBNET 172.16.100.0
+  answer VNET_2_NAT yes
+  answer VNET_2_VIRTUAL_ADAPTER yes
+```
 
 #### 1.2 Create NAT configuration:
 
